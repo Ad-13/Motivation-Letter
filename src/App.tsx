@@ -14,6 +14,9 @@ const App = () => {
     <div className={styles.page}>
       <Header />
 
+      <h1 className={styles.title}>Motivation Letter!</h1>
+      {/* <img className="responsive-img" src="./src/assets/images/bg.jpg" alt="clipmyhorse" /> */}
+
       <main className="container">
         <Summary />
 

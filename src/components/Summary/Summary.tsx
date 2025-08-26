@@ -15,7 +15,7 @@ const Summary = () => {
       variants={blockVariants}
     >
       <div className={styles.summaryLeft}>
-        <h1 className={styles.h1}>Web Developer — ClipMyHorse.TV</h1>
+        <h2 className={styles.title}>Frontend Developer — ClipMyHorse.TV</h2>
         <p className={styles.lead}>
           I`m a frontend engineer with <strong>5+ years</strong> experience building web products
           with React, TypeScript and modern frontend toolchains. I focus on maintainable, performant
@@ -26,7 +26,8 @@ const Summary = () => {
           <span className={styles.badge}>React</span>
           <span className={styles.badge}>TypeScript</span>
           <span className={styles.badge}>Next.js</span>
-          <span className={styles.badge}>Redux · Zustand</span>
+          <span className={styles.badge}>Redux · Zustand · React Query</span>
+          <span className={styles.badge}>Angular</span>
         </div>
 
         <div className={styles.cta}>
@@ -38,17 +39,17 @@ const Summary = () => {
 
       <div className={styles.summaryRight}>
         <div className={styles.smallCard}>
-          <div>
-            <strong>Location:</strong> Kleve, Germany (EU work-right)
+          <div className={styles.smallCardItem}>
+            <strong className="bold">Location:</strong> Kleve, Germany (EU work-right)
           </div>
-          <div>
-            <strong>Languages:</strong> English C1 · German B2 (improving)
+          <div className={styles.smallCardItem}>
+            <strong className="bold">Languages:</strong> English C1 · German B2 (improving)
           </div>
-          <div>
-            <strong>Availability:</strong> Immediately
+          <div className={styles.smallCardItem}>
+            <strong className="bold">Availability:</strong> Immediately
           </div>
-          <div>
-            <strong>Salary:</strong> 50-55k € / year
+          <div className={styles.smallCardItem}>
+            <strong className="bold">Salary:</strong> 50-55k € / year
           </div>
         </div>
       </div>

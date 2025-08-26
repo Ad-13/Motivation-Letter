@@ -5,6 +5,6 @@ export const blockVariants: Variants = {
   show: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { delay, duration: 0.5, ease: "easeOut" },
+    transition: { delay, duration: 0.3, ease: "easeOut" },
   }),
 };

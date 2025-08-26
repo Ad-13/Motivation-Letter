@@ -14,20 +14,22 @@ const TestBlock = () => {
       custom={0.6}
       variants={blockVariants}
     >
-      <h2 className="sectionTitle">Test task & availability</h2>
+      <h2>Test task & availability</h2>
       <p className="para">
         I recently completed a timed frontend test task for another company, which caused a slight
         delay in my reply. If useful, you can review that work here:{' '}
-        <a href="https://surf-weather-three.vercel.app/weather" target="_blank" rel="noreferrer">
+        <a href="https://surf-weather-three.vercel.app" target="_blank" rel="noreferrer">
           Surf Weather — demo
         </a>
-        .
+        {' | '}
+        <a href="https://github.com/Ad-13/surf-weather" target="_blank" rel="noreferrer">
+          Surf Weather — github
+        </a>
       </p>
 
       <p className="para">
         I`m happily available to complete any test task you require and can walk you through my
-        implementation and design choices. Open to remote work or relocation within supported
-        regions.
+        implementation and design choices.
       </p>
     </motion.section>
   );

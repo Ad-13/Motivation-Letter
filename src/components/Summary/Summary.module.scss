@@ -5,19 +5,17 @@
   margin-top: 0.8rem;
 }
 .summaryLeft {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.03));
   padding: 1.2rem;
   border-radius: 0.8rem;
   border: 1px solid rgba(255, 255, 255, 0.03);
 }
-.h1 {
-  font-size: 1.8rem;
-  margin: 0 0 0.5rem 0;
-  line-height: 1.08;
+.title {
+  margin-bottom: 0.5rem;
 }
 .lead {
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 0.9rem;
 }
@@ -60,7 +58,11 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), var(--card));
   border: 1px solid rgba(255, 255, 255, 0.03);
   color: var(--muted);
-  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.smallCardItem {
+  margin-bottom: 0.6rem;
 }
 
 @media (max-width: 980px) {

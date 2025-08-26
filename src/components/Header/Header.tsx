@@ -14,17 +14,17 @@ const Header = () => {
 
           <nav className={styles.links}>
             <a href="https://github.com/ad-13" target="_blank" rel="noreferrer">
-              <Github size={16} />
+              <Github size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/andrew-krupin-9a25238a"
               target="_blank"
               rel="noreferrer"
             >
-              <Linkedin size={16} />
+              <Linkedin size={30} />
             </a>
             <a href="mailto:ad13.other@gmail.com">
-              <Mail size={16} />
+              <Mail size={30} />
             </a>
           </nav>
         </div>

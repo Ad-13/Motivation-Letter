@@ -14,7 +14,7 @@ const WhyJoin = () => {
       custom={0.12}
       variants={blockVariants}
     >
-      <h2 className="sectionTitle">Why I want to join ClipMyHorse.TV</h2>
+      <h2>Why I want to join ClipMyHorse.TV</h2>
       <p className="para">
         Your product-first mission to deliver high-quality streaming experiences is exactly the kind
         of environment I want to contribute to. I`m excited about the opportunity to work on

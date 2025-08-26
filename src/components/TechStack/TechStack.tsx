@@ -14,17 +14,17 @@ const TechStack = () => {
       custom={0.36}
       variants={blockVariants}
     >
-      <h2 className="sectionTitle">Tech stack & strengths</h2>
+      <h2>Tech stack & strengths</h2>
 
       <div className={styles.techGrid}>
         <div className={styles.techItem}>
           <strong>Frontend</strong>
-          <div className={styles.techList}>React · Next.js · Vite · TypeScript</div>
+          <div className={styles.techList}>React · Next.js · TypeScript · Angular</div>
         </div>
 
         <div className={styles.techItem}>
           <strong>State & Data</strong>
-          <div className={styles.techList}>Redux Toolkit · Zustand · REST APIs</div>
+          <div className={styles.techList}>Redux · Zustand · React Query · REST APIs</div>
         </div>
 
         <div className={styles.techItem}>
@@ -35,32 +35,19 @@ const TechStack = () => {
         </div>
 
         <div className={styles.techItem}>
-          <strong>Realtime & integration</strong>
-          <div className={styles.techList}>WebSockets · player UI patterns</div>
-        </div>
-
-        <div className={styles.techItem}>
-          <strong>Tooling</strong>
-          <div className={styles.techList}>Git · GitHub Actions · ESLint · Prettier</div>
+          <strong>Other Tools</strong>
+          <div className={styles.techList}>Git · Vite  · Webpack · ESLint · Prettier</div>
         </div>
 
         <div className={styles.techItem}>
           <strong>Repos</strong>
           <div className={styles.techList}>
             <a
-              href="https://github.com/Ad-13/react-readux-redux-toolkit-scss-typescript"
+              href="https://github.com/Ad-13"
               target="_blank"
               rel="noreferrer"
             >
-              React repo
-            </a>
-            {' • '}
-            <a
-              href="https://github.com/Ad-13/nodejs-express-mysql-typescript"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Backend repo
+              github
             </a>
           </div>
         </div>

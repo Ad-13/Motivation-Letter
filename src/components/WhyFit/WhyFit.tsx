@@ -15,7 +15,7 @@ const WhyFit = () => {
       custom={0.24}
       variants={blockVariants}
     >
-      <h2 className="sectionTitle">Why I`m a good fit</h2>
+      <h2>Why I`m a good fit</h2>
 
       <div className={styles.goodFitGrid}>
         <article className={styles.card}>

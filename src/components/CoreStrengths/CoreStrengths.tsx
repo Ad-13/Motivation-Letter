@@ -15,7 +15,7 @@ const CoreStrengths = () => {
       custom={0.48}
       variants={blockVariants}
     >
-      <h2 className="sectionTitle">Core strengths</h2>
+      <h2>Core strengths</h2>
 
       <div className={styles.coreGrid}>
         <div className={styles.coreCard}>
